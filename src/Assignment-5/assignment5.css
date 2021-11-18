@@ -1,7 +1,129 @@
-/* Our CSS file. */
-
-
-.container, .content {
-width: 100%;
-height: 100%;
+body{
+  background-color: rgb(199, 194, 194);
 }
+
+.container{
+  width: 100%;
+  height: 100%;
+}
+
+.card1{
+  margin-left: 140px;
+  margin-top: 100px;
+  display: flex;
+  flex-direction: row;
+  width: 80vw;
+  height: 50vh;
+  
+  }
+.card1 .a{
+  background-color: rgb(22, 216, 22);
+  
+  
+  width: 60vw;
+  height: 100%;
+}
+.card1 .a img{
+  
+  
+  transform: scaleX(2.1) scaleY(1.3)  ;
+  margin-left: 140px;
+  
+}
+.card1 .b{
+  background-color: white;
+  
+ 
+}
+.card1 .b h1{
+  padding-left: 205px;
+  font-size: 65px;
+  
+}
+.card1 .b p{
+  padding-left: 205px;
+  padding-right: 205px;
+  font-size: 15px;
+}
+.card1 .b h2{
+  margin-left: 205px;
+  font-size: 15px;
+  background-color: turquoise;
+  
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  width: 100px;
+  text-align: center;
+  border-radius: 20px;
+  margin-top: 75px;
+}
+
+.card2{
+  margin-left: 140px;
+  margin-top: 100px;
+  display: flex;
+  flex-direction: row;
+  width: 80vw;
+  height: 50vh;
+  border-radius: 50px;
+  box-shadow: 7px 7px 20px white;
+  
+  }
+
+  .card2 .a{
+    background-color: rgb(129, 233, 129);
+    width: 48vw;
+    height: 100%;
+    
+  }
+
+  .card2 .b{
+    background-color: white;
+    width: 56vw;
+   
+  }
+  .card2 .b h1{
+    padding-left: 205px;
+    padding-right: 300px;
+    font-size: 65px;
+    
+  }
+  .card2 .b p{
+    padding-left: 205px;
+    padding-right: 205px;
+    font-size: 15px;
+  }
+  .card2 .b h2{
+    margin-left: 205px;
+    font-size: 15px;
+    background-color: turquoise;
+    
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 100px;
+    text-align: center;
+    border-radius: 20px;
+    margin-top: 75px;
+  }
+  .card2 .a img{
+  
+  
+    transform: scaleX(1.9) scaleY(1.1)  scaleZ(5);
+    margin-left: 130px;
+    margin-top: 90px;
+    
+  }
+  .card2 .b{
+    background-color: white;
+   
+  }
+  .b{
+    border-radius: 0% 5% 5% 0%;
+  }
+  .a{
+    border-radius: 5% 0% 0% 5%;
+  }
